@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Couleur de fond douce */
+    color: #333; /* Couleur du texte */
+}
+
+/* En-tête */
+header {
+    background-color: #2c3e50; /* Couleur sombre */
+    color: #ecf0f1; /* Couleur claire pour le texte */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 100px; /* Taille du logo */
+}
+
+header .logo h1 {
+    font-size: 36px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffffff; /* Fond blanc */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #e74c3c; /* Couleur rouge pour les titres */
+    margin-bottom: 15px;
+}
+
+/* Articles */
+.article {
+    margin-bottom: 20px;
+}
+
+.article h3 {
+    font-size: 20px;
+    color: #e74c3c; /* Couleur rouge pour les sous-titres */
+}
+
+.article p {
+    margin: 10px 0;
+}
+
+/* Images */
+.responsive-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+/* Liste des événements */
+#evenements ul {
+    list-style-type: square; /* Style de liste carrée */
+    padding-left: 20px; /* Ajoute de l'espace à gauche */
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2c3e50; /* Couleur sombre */
+    color: #ecf0f1; /* Couleur claire pour le texte */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
